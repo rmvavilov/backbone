@@ -1,0 +1,12 @@
+1. lesson - 1
+    - jquery
+    - backbone
+    - underscore
+    - laravel
+
+    1.1. https://github.com/rmvavilov/backbone.git
+    1.2. curl -s https://getcomposer.org/installer | php (отличия локального и глобального файла composer)
+
+    php composer.phar install
+
+composer create-project --prefer-dist laravel/laravel .
