@@ -1,12 +1,22 @@
-1. lesson - 1
-    - jquery
-    - backbone
-    - underscore
-    - laravel
-
-    1.1. https://github.com/rmvavilov/backbone.git
-    1.2. curl -s https://getcomposer.org/installer | php (отличия локального и глобального файла composer)
-
-    php composer.phar install
-
-composer create-project --prefer-dist laravel/laravel .
+Back-end stack
+- Laravel
+Front-end stack
+- jquery
+- backbone
+- underscore
+===
+0. Create backend workspace
+    0.1. composer create-project --prefer-dist laravel/laravel .
+    0.2. git init
+    0.3. git add .
+    0.4. git commit -m "First commit"
+    0.5. git remote add origin https://github.com/rmvavilov/backbone.git
+    0.6. git push origin master
+===
+curl -s https://getcomposer.org/installer | php (отличия локального и глобального файла composer)
+php composer.phar install
+===
+- difference between?
+.env
+.env.example
+APP_KEY=56wSLnVjgKZdf9vjUMQTIUpnFT3jlQca
